@@ -14,6 +14,7 @@ export default {
       }
     },
   },
-  plugins: [tailwindScrollbar,
+  plugins: [
+    require('tailwindScrollbar'),
   ],
 }
