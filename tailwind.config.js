@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-import tailwindScrollbar from 'tailwind-scrollbar';
+import tailwindScrollbar from 'tailwind-scrollbar'; // Correct import
 
 export default {
   content: [
@@ -10,11 +10,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans':['Inter','sans-serif']
+        'sans': ['Inter', 'sans-serif']
       }
     },
   },
   plugins: [
-    require('tailwindScrollbar'),
+    tailwindScrollbar(), // Use the imported plugin
   ],
 }
