@@ -7,7 +7,7 @@ const works = [
         imgSrc: '/project-1.jpg',
         title: 'Full stack Doctor Appointment App',
         tags: ['API', 'Tailwind', 'Development'],
-        projectLink: 'https://doctor-appointment-app-frontend-i9ra.onrender.com/'
+        projectLink: 'https://doctor-appointment-app-9954.vercel.app/'
     },
     {
         imgSrc: '/project-2.jpg',
